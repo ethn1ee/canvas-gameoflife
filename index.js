@@ -12,7 +12,7 @@ let matrix = Array.from({ length: matrixWidth }, () =>
 
 let cellSize = 0;
 let highlightedCells = [];
-let alive = 0;
+// let alive = 0;
 let currentCell = {
   i: -1,
   j: -1,
@@ -58,8 +58,8 @@ function generateNext() {
   matrix = newMatrix;
   alive += born - died;
 
-  const aliveElement = document.getElementById("stat-alive");
-  aliveElement.textContent = `Alive: ${alive}`;
+  // const aliveElement = document.getElementById("stat-alive");
+  // aliveElement.textContent = `Alive: ${alive}`;
 }
 
 /**
