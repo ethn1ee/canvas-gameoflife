@@ -12,7 +12,7 @@ let matrix = Array.from({ length: matrixWidth }, () =>
 
 let cellSize = 0;
 let highlightedCells = [];
-// let alive = 0;
+let alive = 0;
 let currentCell = {
   i: -1,
   j: -1,
